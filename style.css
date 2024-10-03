@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav{
+    background-color: rgb(67, 67, 156);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0px 150px;
+
+}
+.left{
+    display: flex;
+}
+.left>h1{
+    color: white;
+}
+.left>button{
+    background-color: greenyellow;
+    border: none;
+    padding: 5px 6px;
+    margin-left: 30px;
+}
+.right{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+.right>div>button{
+    margin-top: 18px;
+    padding: 2px 5px;
+}
+.right>div>div>a{
+    color: rgba(240, 248, 255, 0.51);
+    text-decoration: none;
+    font-size: 15px;
+}
+.card{
+    border: 2px solid rgb(173, 170, 170);
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    height: 170px;
+    width: 600px;
+    margin-top: 100px;
+    margin-bottom: auto;
+
+}
+.card>h2{
+    border-bottom: 1px solid rgb(115, 113, 113);
+    padding-bottom: 10px;
+}
+.bactntm{
+    margin-top: 10px;
+    border-top: 1px solid rgb(193, 193, 193);
+    padding-top: 30px;
+}
+.bactntm>button{
+    padding: 5px 8px;
+    margin-left: 500px;
+}
+.bottom{
+    margin: 0px 200px;
+    margin-top: 350px;
+}
+.lang{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(187, 186, 186) ;
+}
+.bottom>div>a{
+    text-decoration: none;
+    font-size: 15px;
+}
