@@ -13,7 +13,9 @@ mongoose
   .then(() => console.log("mongoDB connected successfully."));
 
 const PORT = process.env.PORT || 5000;
-
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
 app.use("/user", router);
 /* 
 app.use("/register", register);
